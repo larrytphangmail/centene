@@ -1,0 +1,38 @@
+2020-10-13 09:33:42,562 INFO o.s.b.StartupInfoLogger [main] Starting CenteneApplicationTests on DESKTOP-CFBVHIT with PID 13996 (started by larrytphan in C:\Users\larrytphan\git\centene\code.challenge)
+2020-10-13 09:33:42,569 INFO o.s.b.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-10-13 09:33:43,363 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-10-13 09:33:43,427 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 55ms. Found 2 JPA repository interfaces.
+2020-10-13 09:33:44,393 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2020-10-13 09:33:45,072 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-10-13 09:33:45,228 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-10-13 09:33:45,440 INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-13 09:33:45,641 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-10-13 09:33:46,515 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-13 09:33:46,523 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-13 09:33:46,566 INFO c.c.c.CenteneController [main] Starting EnrolleeController - Available URL Paths: 
+2020-10-13 09:33:46,566 INFO c.c.c.CenteneController [main] 
+Available URL Paths:
+2020-10-13 09:33:46,566 INFO c.c.c.CenteneController [main] /get-all-enrollees/activation-status/{status}
+2020-10-13 09:33:46,567 INFO c.c.c.CenteneController [main] /get-all-enrollees
+2020-10-13 09:33:46,567 INFO c.c.c.CenteneController [main] /get-all-enrollees/enrollee-id/{enrolleeId}
+2020-10-13 09:33:46,567 INFO c.c.c.CenteneController [main] /add-enrollee
+2020-10-13 09:33:46,567 INFO c.c.c.CenteneController [main] /delete-enrollee
+2020-10-13 09:33:46,567 INFO c.c.c.CenteneController [main] /delete-enrollee/id/{id}
+2020-10-13 09:33:46,567 INFO c.c.c.CenteneController [main] /update-enrollee
+2020-10-13 09:33:46,568 INFO c.c.c.CenteneController [main] /add-dependent
+2020-10-13 09:33:46,568 INFO c.c.c.CenteneController [main] /add-dependents
+2020-10-13 09:33:46,568 INFO c.c.c.CenteneController [main] /get-all-dependents
+2020-10-13 09:33:46,568 INFO c.c.c.CenteneController [main] /get-all-dependents/enrollee-id/{enrolleeId}
+2020-10-13 09:33:46,568 INFO c.c.c.CenteneController [main] /update-dependent-by-enrolleeId
+2020-10-13 09:33:46,568 INFO c.c.c.CenteneController [main] /update-dependent-by-id
+2020-10-13 09:33:46,568 INFO c.c.c.CenteneController [main] /delete-dependent/enrollee-id/{id}
+2020-10-13 09:33:46,569 INFO c.c.c.CenteneController [main] /delete-dependent/id/{id}
+2020-10-13 09:33:46,569 INFO c.c.c.CenteneController [main] /delete-dependents
+2020-10-13 09:33:47,646 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-13 09:33:48,083 INFO o.s.s.c.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-13 09:33:48,426 WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-10-13 09:33:48,828 INFO o.s.b.StartupInfoLogger [main] Started CenteneApplicationTests in 6.541 seconds (JVM running for 8.217)
+2020-10-13 09:33:49,197 INFO o.s.s.c.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-13 09:33:49,199 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-10-13 09:33:49,203 INFO c.z.h.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2020-10-13 09:33:49,222 INFO c.z.h.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
